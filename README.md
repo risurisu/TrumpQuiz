@@ -28,4 +28,4 @@
 * Ash: ashley.hofferber@generalassemb.ly
 * Andrew: andrew@generalassemb.ly
 * Rafa: rafa.pacas@generalassemb.ly
-* GA Production Staff: studentservicesnyc@ga.co
+* GA General Support Contact: studentservicesnyc@ga.co
