@@ -18,8 +18,8 @@
 </table>
 
 **...Though we will often be joined by a crew of other really smart and wonderful instrutors**
----
 
+---
 ![WDI Owl Map](/WDI-KnockKnock.jpg)
 
 ---
