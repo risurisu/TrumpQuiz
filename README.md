@@ -18,8 +18,8 @@
 </table>
 
 **...Though we will often be joined by a crew of other really smart and wonderful instrutors**
----
 
+---
 ![WDI Owl Map](/WDI-KnockKnock.jpg)
 
 ---
@@ -29,3 +29,11 @@
 * Andrew: andrew@generalassemb.ly
 * Rafa: rafa.pacas@generalassemb.ly
 * GA Production Staff: studentservicesnyc@ga.co
+
+
+
+*Knock Knock*
+**Who's there?**
+*Owl!*
+**Owl who?**
+*Owl Aboard!*
