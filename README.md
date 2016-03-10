@@ -1,6 +1,8 @@
 # WDI-Knock Knock  (Codename: Owl)
 ### Tagline: "Whooooooo's there?"
 
+![](http://media1.giphy.com/gifsu/xT5LMycFAuLZYoAatO/giphy-caption.gif)
+
 ---
 **Your *CORE* Instructional Team will be:**
 <table>
