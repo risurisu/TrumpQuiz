@@ -1,8 +1,8 @@
-# WDI-Knock Knock  (Codename: Owl) 
+# WDI-Knock Knock  (Codename: Owl)
 ### Tagline: "Whooooooo's there?"
 
-
-**Your Instructional Team**
+---
+**Your *CORE* Instructional Team will be:**
 <table>
   <tr>
 
@@ -17,6 +17,15 @@
   </tr>
 </table>
 
+**...Though we will often be joined by a crew of other really smart and wonderful instrutors**
 ---
 
-![WDI Otter Map](/wdi-otter-map.png)
+![WDI Owl Map](/WDI-KnockKnock.jpg)
+
+---
+#### Contact Emails
+
+* Ash: ashley.hofferber@generalassemb.ly
+* Andrew: andrew@generalassemb.ly
+* Rafa: rafa.pacas@generalassemb.ly
+* GA Production Staff: studentservicesnyc@ga.co
