@@ -1,0 +1,97 @@
+ACT I
+
+Lizs-MacBook-Pro:Desktop liz$ cd GA
+Lizs-MacBook-Pro:GA liz$ cd Week_One
+Lizs-MacBook-Pro:Week_One liz$ ls
+Day_One 
+Lizs-MacBook-Pro:Week_One liz$ cd Day_One
+-bash: cd: Day_One: No such file or directory
+Lizs-MacBook-Pro:Week_One liz$ mkdir star_wars
+Lizs-MacBook-Pro:Week_One liz$ cd star_wars
+Lizs-MacBook-Pro:star_wars liz$ mkdir empire rebellion
+Lizs-MacBook-Pro:star_wars liz$ cd empire
+Lizs-MacBook-Pro:empire liz$ touch darth_vader.txt
+Lizs-MacBook-Pro:empire liz$ nano darth_vader
+Lizs-MacBook-Pro:empire liz$ pwd
+/Users/liz/Desktop/GA/Week_One/star_wars/empire
+Lizs-MacBook-Pro:empire liz$ touch emperor_palpatine.txt
+Lizs-MacBook-Pro:empire liz$ mkdir death_star
+Lizs-MacBook-Pro:empire liz$ mv darth_vader.txt death_star
+Lizs-MacBook-Pro:empire liz$ 
+
+ACT II
+
+Lizs-MacBook-Pro:empire liz$ cd ../
+Lizs-MacBook-Pro:star_wars liz$ cd rebellion
+Lizs-MacBook-Pro:rebellion liz$ touch princess_leia.txt
+Lizs-MacBook-Pro:rebellion liz$ nano princess_leia.txt
+Lizs-MacBook-Pro:rebellion liz$ touch obi_wan.txt
+Lizs-MacBook-Pro:rebellion liz$ touch luke_skywalker.txt
+Lizs-MacBook-Pro:rebellion liz$ mkdir millenium_falcon
+Lizs-MacBook-Pro:rebellion liz$ cd millenium_falcon
+Lizs-MacBook-Pro:millenium_falcon liz$ touch han_solo.txt
+Lizs-MacBook-Pro:millenium_falcon liz$ touch chewy.txt
+Lizs-MacBook-Pro:millenium_falcon liz$ 
+Lizs-MacBook-Pro:millenium_falcon liz$ mv luke_skywalker.txt millenium_falcon
+mv: rename luke_skywalker.txt to millenium_falcon: No such file or directory
+Lizs-MacBook-Pro:millenium_falcon liz$ cd ../
+Lizs-MacBook-Pro:rebellion liz$ mv luke_skywalker.txt millenium_falcon
+Lizs-MacBook-Pro:rebellion liz$ ls
+millenium_falcon	obi_wan.txt		princess_leia.txt
+Lizs-MacBook-Pro:rebellion liz$ ls millenium_falcon
+chewy.txt		han_solo.txt		luke_skywalker.txt
+Lizs-MacBook-Pro:rebellion liz$ mv *.txt millenium_falcon
+Lizs-MacBook-Pro:rebellion liz$ ls millenium_falcon
+chewy.txt		luke_skywalker.txt	princess_leia.txt
+han_solo.txt		obi_wan.txt
+Lizs-MacBook-Pro:rebellion liz$ 
+Lizs-MacBook-Pro:rebellion liz$ sudo mv millenium_falcon ../empire/death_star
+Password:
+Lizs-MacBook-Pro:rebellion liz$ 
+
+ACT III
+
+Lizs-MacBook-Pro:death_star liz$ cd millenium_falcon
+Lizs-MacBook-Pro:millenium_falcon liz$ mv *.txt death_star
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Lizs-MacBook-Pro:millenium_falcon liz$ mv ./*.txt ../
+Lizs-MacBook-Pro:millenium_falcon liz$ cd death_star
+-bash: cd: death_star: No such file or directory
+Lizs-MacBook-Pro:millenium_falcon liz$ ../
+-bash: ../: is a directory
+Lizs-MacBook-Pro:millenium_falcon liz$ cd ../
+Lizs-MacBook-Pro:death_star liz$ rm -r obi_wan.txt
+Lizs-MacBook-Pro:death_star liz$ ls
+chewy.txt		han_solo.txt		princess_leia.txt
+darth_vader.txt		luke_skywalker.txt
+emperor_palpatine.txt	millenium_falcon
+Lizs-MacBook-Pro:death_star liz$ mv -t millenium_falcon princess_leia.txt luke_skywalker.txt han_solo.txt chewy.txt
+mv: illegal option -- t
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Lizs-MacBook-Pro:death_star liz$ 
+Lizs-MacBook-Pro:death_star liz$ mv chewy.txt millenium_falcon
+Lizs-MacBook-Pro:death_star liz$ mv princess_leia.txt millenium_falcon
+Lizs-MacBook-Pro:death_star liz$ mv luke_skywalker.txt millenium_falcon
+Lizs-MacBook-Pro:death_star liz$ mv han_solo.txt millenium_falcon
+Lizs-MacBook-Pro:death_star liz$ sudo mv millenium_falcon ../
+Password:
+Sorry, try again.
+Password:
+Lizs-MacBook-Pro:death_star liz$ cd ../
+Lizs-MacBook-Pro:empire liz$ sudo mv millenium_falcon ../
+Lizs-MacBook-Pro:empire liz$ ../
+-bash: ../: is a directory
+Lizs-MacBook-Pro:empire liz$ cd ../
+Lizs-MacBook-Pro:star_wars liz$ sudo mv millenium_falcon rebellion
+Lizs-MacBook-Pro:star_wars liz$ cd empire
+Lizs-MacBook-Pro:empire liz$ cd death_star
+Lizs-MacBook-Pro:death_star liz$ mv darth_vader ../
+mv: rename darth_vader to ../darth_vader: No such file or directory
+Lizs-MacBook-Pro:death_star liz$ mv darth_vader.txt ../
+Lizs-MacBook-Pro:death_star liz$ cd empire
+-bash: cd: empire: No such file or directory
+Lizs-MacBook-Pro:death_star liz$ cd ..//
+Lizs-MacBook-Pro:empire liz$ rm -r death_star
+Lizs-MacBook-Pro:empire liz$ 
