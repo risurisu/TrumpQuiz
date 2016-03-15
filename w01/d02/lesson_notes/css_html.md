@@ -314,7 +314,11 @@ Given two selectors (e.g. `frap` and `div.grog` ), it's possible to combine them
     </div>
     ```
 
+<<<<<<< HEAD
 4. `A + B` (Style B, which is any sibling of A appearing after A)
+=======
+4. `A ~ B` (Style B, which is any sibling of A appearing after A)
+>>>>>>> b4fedb7ad7021f449a37216b16510ed1b0fd61ea
 
     ```css
     #frap ~ div.grog {

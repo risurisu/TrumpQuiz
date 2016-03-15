@@ -1,0 +1,53 @@
+/*STYLES GO HERE*/
+
+* {
+  text-align: center;
+  font-family: serif;
+  background-color: #FAFAD2
+}
+h1 {
+  border-top: 5px solid black;
+  padding: 20px;
+    border-bottom: 1px solid black;
+    padding: 25px;
+}
+li {
+
+     display: inline;
+     text-align: center;
+   }
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-left: 5px;
+
+}
+
+p {
+    padding: 10px;
+  }
+footer > a {
+  text-decoration:underline solid black;
+}
+
+.TextWrap {
+  display: inline-block;
+  margin: 10px;
+}
+
+#middle {
+  border-bottom: 1px solid black;
+}
+
+#text {
+  display: inline-block;
+  width: 50%;
+}
+.web  {
+  font-family: sans-serif;
+}
+
+#header {
+  font-family: fantasy;
+}
