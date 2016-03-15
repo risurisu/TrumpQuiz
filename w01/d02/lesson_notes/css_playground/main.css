@@ -1,0 +1,40 @@
+* {
+
+}
+
+body {
+
+}
+
+/* tagname {} */
+
+h3 {
+  font-family: monospace;
+  color: deeppink;
+  border: 1px solid black;
+
+  padding: 2px 10px 25px 300px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-family: sans-serif;
+}
+
+/* .className {} */
+
+.btn-red {
+  background: red;
+  color: white;
+}
+
+/* #idName {} */
+
+#main-input {
+  display: block;
+  width: 100%;
+  background: lightblue;
+  padding: 0 5px;
+}
