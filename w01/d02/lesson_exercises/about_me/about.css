@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  background-color: #FAFAD2;
+}
+h1 {
+  text-align: center;
+  font-size: 300%
+  color: green;
+  border-bottom-style: solid;
+}
+div {
+  border-bottom: green;
+}
+h2 > img {
+  border-radius: 8px
+  position: relative;
+    float: center;
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+img {
+  border-radius: 50%
+}
+blockquote {
+
+  color: green
+
+}
+p {
+
+  color: green;
+  font-size:150%
+}
+footer {
+  font-size: 50%
+}

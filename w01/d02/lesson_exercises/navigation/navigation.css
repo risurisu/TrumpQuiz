@@ -1,0 +1,37 @@
+nav {
+  background-color: lightgray;
+  border: 1px solid blue;
+}
+
+li {
+  list-style:none;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 1rem;
+}
+
+.outer-selections > li > a
+{
+  border-bottom: 1px solid green;
+
+}
+.inner-selections > li > a
+{
+  border-bottom: 1px dashed orange;
+  padding-left: 2rem;
+
+}
+ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
