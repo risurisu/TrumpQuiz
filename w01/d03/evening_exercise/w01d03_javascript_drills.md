@@ -7,6 +7,7 @@ A starter HTML file has been provided and is where you should work tonight.
 #### 1. Pythagorean Theorem
 Write a JavaScript statement that can solve the pythagorean theorem.
 Don't know it? Google might! :smile:
+<<<<<<< HEAD
 function pythagorean (a, b) {
 
 var c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
@@ -16,10 +17,16 @@ return c;
 #### 2. Create an array of your favorite things
 Create an array that will have 5 indices—**0 through 4**. Each one should be assigned a value that contains a favorite thing of yours.
 var myFavoriteThings = [Cats, Beer, Politics, Bodegas, Hats];
+=======
+
+#### 2. Create an array of your favorite things
+Create an array that will have 5 indices—**0 through 4**. Each one should be assigned a value that contains a favorite thing of yours.
+>>>>>>> a369e6c8ce864e96cd3220f065ea200df601ebb4
 
 #### 3. Write a statement that checks to see if a buyer is over 21
 We want to sell the booze! However, we can't sell to minors. Write an **if/else** statement that checks someone's age to be over 21. :beer:
 
+<<<<<<< HEAD
 var buyer= prompt("Please enter your age");
     if (buyer < 21) {
         console.log ("Get out.");
@@ -28,10 +35,13 @@ var buyer= prompt("Please enter your age");
         console.log("All the beer!");
     }
 
+=======
+>>>>>>> a369e6c8ce864e96cd3220f065ea200df601ebb4
 #### 4. Problems...problems everywhere!
 Take the following math statements and turn them into JavaScript statements. *Use variables where they make sense.*
 
 - Item A is greater than Item B
+<<<<<<< HEAD
 Var A > Var B
 - Item C is equal to Item D
 Var C === Var D
@@ -49,6 +59,14 @@ Math.pow(H , 3) === Var I
 var J= 2
 var H = 3
 var q = j * h
+=======
+- Item C is equal to Item D
+- 42 is less than 48
+- Name is equal to Name
+- Item E minus Item F equals Item G
+- Item H squared equals Item I
+- Item J times Item H
+>>>>>>> a369e6c8ce864e96cd3220f065ea200df601ebb4
 
 #### 5. Adventure Time!
 - Write an adventure story in a paragraph.
@@ -60,6 +78,7 @@ var q = j * h
 - You should use at least one **conditional statement** when building your adventure.
 - Try your (or a classmate's) adventure story out!
 
+<<<<<<< HEAD
 confirm("Let's go on a MadLib adventure! Complete the sentences.");
     var age = prompt("What's your age?");
 if (age < 13) {
@@ -89,5 +108,7 @@ confirm("Do you want to hear your story?");
 
 
 
+=======
+>>>>>>> a369e6c8ce864e96cd3220f065ea200df601ebb4
 ### Done?
 As we did yesterday, please submit your evening assignment via a GitHub issue. In the body of your submission, make sure to leave your **comfortability** (0–5), **completeness** (0–5), a **win**, a **challenge** and maybe a **comment** about this assignment.

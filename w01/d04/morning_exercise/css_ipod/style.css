@@ -1,0 +1,30 @@
+#ipod_body {
+    background-color: maroon;
+    border-radius: 25px;
+    height: 500px;
+    width: 300px;
+    margin: 25px
+    border: maroon;
+}
+#screen {
+    background-color: white;
+    border-radius: 25px;
+    border-color: maroon;
+  }
+#top_bar {
+  background-color: gray;
+}
+
+#wheel {
+    background-color: white;
+    border-radius: 50%;
+    height: auto;
+    padding-top: 50%
+  }
+
+
+}
+#selection_list {
+ list-style-type: none;
+
+ }
