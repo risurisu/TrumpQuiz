@@ -4,7 +4,7 @@ Let's draw an iPod Classic using HTML/CSS! Please work with a partner!
 
 ###Step 1 (Command Line)
 
-* Navigate to your `w01/d04/morning_exercise` directory in our `WDI_WODR_OTTER` repository.
+* Navigate to your `w01/d04/morning_exercise` directory in our `WDI_KNOCKKNOCK_OWL` repository.
 * Make a directory there called `css_ipod` and navigate into this directory.
 * Make an HTML file called `index.html`.
 * Make a CSS file called `style.css`.
@@ -19,7 +19,7 @@ Let's draw an iPod Classic using HTML/CSS! Please work with a partner!
 <html>
   <head>
     <title>CSS iPod!</title>
-    <link rel="stylesheet" href="style.css"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
