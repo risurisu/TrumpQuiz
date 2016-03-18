@@ -1,0 +1,12 @@
+#tempDisplay{
+  width: 70%;
+  height: 300px;
+  margin: 15% 10%;
+  border: 1px solid black;
+}
+
+
+h3 {
+  margin-top: 30%;
+  text-align: center;
+}
