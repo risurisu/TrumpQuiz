@@ -5,6 +5,17 @@
 
   <h1>Conditional Air Conditioner!</h1>
   <script>
+  var temp= parseInt( prompt("What is the current temperature?"));
+  var desTemp = parseInt(prompt("What would you like the temperature to be?"));
+    if (desTemp > temp) {
+        console.log("Turning off the A/C! It's too cold!");
+    }
+    else if (desTemp < temp) {
+        conole.log("Turning on the AC! It's boiling in here!");
+    }
+    else {
+        console.log ("A perfect temperature. Keep it cool");
+    }
 
   // Your solution goes here!
 

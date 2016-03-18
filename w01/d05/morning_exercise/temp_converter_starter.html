@@ -5,7 +5,19 @@
 
   <h1>Temperature Converter!</h1>
   <script>
+  function tempCon(); {
+  var temp= parseInt(prompt("What is the current temperature?"));
+  var tempScale = prompt("Please select either F to C or C to F");
 
+    if (tempScale === 'F to C' || tempScale === 'f to c') {
+        var converted = ( (temp - 32) * 5 ) / 9;
+        console.log(converted);
+    } else (tempScale === 'C to F' || tempScale === 'c to f') {
+        var converted = ( ( temp * 9) / 5) + 32;
+        console.log(converted);
+    }
+
+}
   // Your solution goes here!
 
   </script>

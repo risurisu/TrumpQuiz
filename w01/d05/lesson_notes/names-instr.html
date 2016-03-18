@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>WDI, meet DOM</title>
+    <script type="text/javascript">
+
+      //  NOTES:
+      var nameNodes = document.body.firstElementChild.children;
+      for (var i=0; i<nameNodes.length; i++){
+        nameNodes[i].innerText += "... the great";
+      }
+
+
+      // NOTES FOR PICTURES SWAP
+      // To get all the pictures...
+      var pictures = document.querySelectorAll('img');
+
+      // To set the first picture...
+      for (var i = 0; i < pictures.length; i++) {
+        pictures[i].setAttribute('src', 'http://andrewmadden.com/face.png');
+      }
+
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li> Lichard </li>
+      <li> Kathew </li>
+      <li> Omily </li>
+      <li> Olexandria </li>
+    </ul>
+  </body>
+</html>

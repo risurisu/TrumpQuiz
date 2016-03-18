@@ -11,3 +11,8 @@
     </ul>
   </body>
 </html>
+var nameNodes = document.body.firstElementChild.children;
+
+for (var i = 0; i < nameNodes.length; i++) {
+  nameNodes[i].innerText += " the Great";
+}
