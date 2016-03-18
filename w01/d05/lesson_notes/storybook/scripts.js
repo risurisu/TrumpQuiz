@@ -33,7 +33,6 @@ storyBook.transportations = [
 
 
 
-
 //  ****** Define the actions in our story object
 storyBook.actions = [
   'sing a sweet song.... that of memories',
