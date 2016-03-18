@@ -5,6 +5,29 @@
 
     <h1>Guess the Number!</h1>
     <script>
+    function guessNum(){
+
+  var num = parseInt(Math.random() * 20 + 1);
+  var userNum = prompt("Pick a number between 1 and 20");
+
+  if(isNaN(userNum)) {
+      alert("You need to pick a number");
+  }
+  else {
+      if (num > userNum) {
+          alert("Pick a higher number");
+      }
+  else {
+      if (num < userNum) {
+          alert("Pick a lower number");
+      }
+  }
+      else (num === userNum) {
+          alert("You win!");
+      }
+  }
+
+}
 
     // Solution Here!
 

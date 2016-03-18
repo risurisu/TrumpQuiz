@@ -5,9 +5,33 @@
 
     <h1>Adventure Story!</h1>
     <script>
+    // All nouns in game
+var nouns = ["Cat", "Sword", "Bottle", "temple", "flower"];
+var ranNoun = Math.floor(Math.random() * nouns.length);
+var result = nouns[ranNoun];
+
+// Adjectives in game
+var adjectives = ["orange", "ugly", "short", "noisy", "low"];
+var ranAdj = Math.floor(Math.random() * adjectives.length);
+var result = adjectives[ranAdj];
+
+// Verbs in game
+var verbs = ["fly", "jump", "walk", "gallop", "swim"];
+var ranVerb = Math.floor(Math.random() * verbs.length);
+var result = verbs[ranVerb];
+
+// destination
+var destination = ["the castle", "the dungeon", "the moon", "the nuclear test facility", "Pyongyang"];
+var ranDest = Math.floor(Math.random() * destination.length);
+var result = destination[ranDest];
+
+// With my (adjective) (noun), I (verb) to (destination).
+
+{
+console.log("With my ", adjective[ranAdj] + nouns[ranNoun] + "I " + verbs[ranVerb] "to" destination[ranDest]);
 
     // Your Solution Here!
-    
+
     </script>
 
 
