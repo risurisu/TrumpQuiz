@@ -44,3 +44,4 @@
 
 ## Videos
 - [MTA Application  (HTML + JS)](https://youtu.be/Kxgq_sYoIlQ)
+- [Todo Application  (HTML + JS + jQuery)](https://youtu.be/RWGLEZkQtTU
