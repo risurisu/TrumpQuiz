@@ -1,3 +1,18 @@
+* {
+  cursor: none;
+}
+
+#opening-message{
+  text-align: center;
+}
+
 body{
   background-color: lightblue;
+}
+
+
+.heart{
+  position: absolute;
+  color: red;
+  font-size: 5em;
 }
