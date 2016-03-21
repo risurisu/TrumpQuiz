@@ -1,3 +1,14 @@
 body{
   background-color: lightblue;
 }
+
+.balloon {
+  background-color: blue;
+  width: 3em;
+  height: 4em;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 10%;
+
+}
