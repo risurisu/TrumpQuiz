@@ -1,0 +1,31 @@
+
+
+/*<div class="mean-greedy-toy-block">
+<div class="semi-kind-toy-block">
+<div class="super-friendly-toy-block">*/
+
+
+.mean-greedy-toy-block{
+  display: block;  /*  NO ONE CAN BE NEAR ME */
+  width: 3em;
+  height: 5em;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.semi-kind-toy-block{
+  display: inline-block;  /*  Ok... I need my space... but you can be there */
+  width: 3em;
+  height: 5em;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+
+.super-friendly-toy-block{
+  display: inline;  /*  Come as close as you want... */
+  /*width: 3em;*/
+  /*height: 5em;*/
+  background-color: green;
+  border: 1px solid black;
+}
