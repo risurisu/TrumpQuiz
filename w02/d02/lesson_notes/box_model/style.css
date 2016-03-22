@@ -1,0 +1,30 @@
+.box {
+  width: 100px;
+  height: 100px;
+
+  text-align: center;
+
+  padding: 10px;
+  border: 15px solid orange;
+
+  margin-bottom: 25px;
+}
+
+.content {
+  border-radius: 50%;
+
+  line-height: 100px;
+  box-sizing: content-box;
+  background: yellow;
+}
+
+/*.padding {
+  box-sizing: padding-box;
+  background: pink;
+} padding box is garbage, don't use it... damn you firefox... */
+
+.border {
+  line-height: 50px;
+  box-sizing: border-box;
+  background: lightgreen;
+}
