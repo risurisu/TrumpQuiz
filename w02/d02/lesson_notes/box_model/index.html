@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="box content">
+      Content
+    </div>
+    <!-- <div class="box padding">
+      Content
+    </div> -->
+    <div class="box border">
+      Content
+    </div>
+    <script>
+      var content = document.querySelector('.content');
+      content.addEventListener('click', function (eventObject) {
+        console.log("eventObject\n=============================", eventObject);
+        console.log("Someone touched me...");
+      })
+    </script>
+  </body>
+</html>

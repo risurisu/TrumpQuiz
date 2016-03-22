@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.lorem {
+  font-size: 0.2rem;
+  font-family: monospace;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 1em;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.fixed {
+  display: none;
+  /* comment this line to show what fixed does */
+  position: fixed;
+
+  bottom: 50%;
+  right: 50%;
+
+  margin-right: -100px;
+  margin-bottom: -100px;
+
+  background: lightpink;
+}
+
+.relative {
+  display: none;
+  /* comment this line to show what relative does */
+  /*position: relative;*/
+  top: 100px;
+  left: 50px;
+
+  background: lightblue;
+}
+
+.absolute {
+  display: none;
+  /* comment this line to show what absolute does */
+  position: absolute;
+  background: lightgreen;
+  top: 10px;
+}
+
+.advert {
+  position: relative;
+  border: 1px solid black;
+  background: floralwhite;
+  width: 200px;
+  height: 300px;
+}
+
+.image {
+  width: 200px;
+  height: 300px;
+}
+
+.pop-in {
+  position: absolute;
+  background: rgba(0,0,0,0.4);
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
