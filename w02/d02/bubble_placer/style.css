@@ -1,0 +1,43 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.container {
+  border: 4px solid orange;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+img.dude {
+  transition: 0.5s all ease;
+  transform: scaleX(1);
+}
+img.dude.flip {
+  transform: scaleX(-1);
+}
+
+.bubble-box {
+  flex-grow: 1;
+  /* Hint: this is a parent element to the bubbles */
+  height: 480px;
+
+  background: #444;
+}
+
+.bubble {
+  /* Hint: you want these to live inside the bubble-box */
+  width: 48px;
+  height: 48px;
+
+  background: white;
+
+  border: 1px solid black;
+  border-radius: 50%;
+}
