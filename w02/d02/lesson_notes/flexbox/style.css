@@ -1,0 +1,10 @@
+.columns {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  width: 400px;
+}
