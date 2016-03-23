@@ -1,0 +1,54 @@
+body {
+	font-size: = 12px;
+	line-height: 17px;
+	font-family: "Times New Roman", serif;
+	color: #656565
+	padding-left: 4em;
+	padding-top: 2em;
+
+}
+
+.container {
+	display: flex;
+	margin: auto;
+	background-color: gray;
+	position: relative;
+	width: 100%;
+	text-shadow: grey;
+	text-decoration-style: solid;
+	line-height: inherit;
+}
+
+img {
+	padding: 15px;
+	position: relative;
+}
+
+a.highlight.hover {
+	color: #20222aa
+}
+
+.document {
+	background-color: gray;
+}
+
+.column {
+	border: solid grey;
+	display: inline-block;
+}
+
+
+/*
+
+## Style Hints:
+
+Body Font Size = 12px
+	 Line Height = 17px
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+
+Link Hover Color = #20222a
+
+GO FOR IT  :D   Don't worry about getting it exact!
+
+*/

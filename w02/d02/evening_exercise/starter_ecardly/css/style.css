@@ -1,0 +1,174 @@
+/*
+Project Name: Ecard.ly
+Client: General Assembly
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/*-----------------------------------------------------------------------------
+BASE STYLE
+-----------------------------------------------------------------------------*/
+
+
+/* ??  NOTE: These are the css selectors we used...
+        feel free to use any you want! */
+
+/* Write your CSS here! */
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat-x;
+    font-family: helvetica;
+    font-size: 12px;
+    line-height: 1.7em;
+    background-color: lightgray;
+    float: left;
+  /*  What syles apply to all of the body contain */
+  /* background? font-faimly?  etc.*/
+}
+
+a {
+  color: red;
+  text-decoration: none;
+	/* How are 'a' tags styled? */
+}
+
+h1 a {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  /* What should 'a' tags WITHIN 'h1' tags look like? */
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  /* What should 'h2' tags look like? */
+}
+	h2 a {
+    color: black;
+    text-decoration: none;
+	   /* What should 'a' tags WITHIN 'h2' tags look like? */
+	}
+
+
+
+/*-----------------------------------------------------------------------------
+LAYOUT
+-----------------------------------------------------------------------------*/
+
+/* NOTE: These are the css selectors we used...
+        feel free to use any you want! */
+
+/* Center the container */
+#container {
+  background: white;
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+	/* ??  */
+}
+
+#header {
+  padding: 5%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:url("../images/logo.png")
+	/* ??  */
+}
+
+#main {
+  text-align: center;
+  flex-direction: column;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin: 0;
+	/* ??  */
+}
+
+	.post {
+    margin: auto;
+    padding-bottom: 50%;
+
+		/* ??  */
+	}
+
+	.post-meta {
+		/* ??  */
+	}
+
+#sidebar {
+  float: right;
+  padding: 20px;
+  height: 60%;
+  text-align: left;
+  background-color: white;
+	/* ??  */
+}
+
+	#sidebar .widget {
+		/* ??  */
+	}
+
+#sidebar ul {
+  padding: 0;
+  text-align: left;
+  list-style: none;
+	/* ??  */
+}
+
+#sidebar li {
+  text-align: left;
+  list-style: none;
+	/* ??  */
+}
+
+#sidebar a {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+	/* ??  */
+}
+
+footer {
+  text-align: center;
+	/* ??  */
+}
