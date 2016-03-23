@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url(http://www.hdwallpapersinn.com/wp-content/uploads/2014/09/Park-Bench-Wallpaper.jpg) no-repeat;
+  background-size: 1450px;
+  font-family: Helvetica;
+  font-weight: 500;
+  line-height: 4em;
+}
+
+#ron {
+  background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJwXnkPvIogaLXDvYjSNK6vjcLY0bznrG2Ax_DNYu3N10duxl5ug);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 400px;
+  left: 1000px;
+  height: 300px;
+  width: 425px;
+}
+
+#tom {
+  background: url(http://cdn1.theodysseyonline.com/files/2015/05/03/6356628303646893871727291423_tommy-talk-parks-and-rec.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  height: 300px;
+  width: 425px;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#park {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  color: lightgreen;
+  font-size: 2.5em;
+}
+
+ul {
+  margin-top: -1.5em;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  position: absolute;
+  left: 600px;
+  font-size: 5em;
+  color: yellow;
+}
