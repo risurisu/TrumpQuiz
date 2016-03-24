@@ -1,0 +1,4 @@
+- Define the difference between a library and a framework
+- Define event bubbling, delegation and how to bind events with jQuery
+- practice event listeners with jQuery.
+- practice DOM manipulation with jQuery.

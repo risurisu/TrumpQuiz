@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Hello Owls </title>
+    <!-- INCLUDE JQUERY HERE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js" charset="utf-8"></script>
+    <style media="screen">
+      /* ADD YOUR CSS STYLE HERE */
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <ul id="brands">
+        <li class="brand">Nike</li>
+        <li class="brand favorite">Adidas</li>
+        <li class="brand">Reebok</li>
+      </ul>
+    </div>
+    <footer> The footer section </footer>
+
+    <script type="text/javascript">
+      // CODE YOUR JAVASCRIPT HERE
+
+      // select body
+      var $myBodyIsReady = $('body');
+
+      // change footer
+      $('footer').text("I am a semantic tag :)");
+
+      // select my favorite brand
+      $('.favorite')
+
+      // background color change
+      $('.content').css(
+        {
+          "background-color": "lightblue",
+          "font-size": "2em"
+        }
+      );
+
+      // count items in the brands list
+      var size = $('.brand').length;
+      console.log(size);
+
+      // remove all brands
+      $('.brand').remove();
+      $('#brands').empty();
+
+      // add favorite brand to the list
+      // long way :)
+      var brand = $('<li>');
+      brand.addClass("favorite");
+      brand.addClass("brand");
+      brand.text("zara");
+      brand.appendTo($('#brands'));
+
+    </script>
+  </body>
+</html>
