@@ -1,0 +1,8 @@
+.card {
+  width: 100px;
+  height: 140px;
+}
+
+.facedown {
+  background-color: black;
+}

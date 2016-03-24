@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Hello Owls </title>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+    <style media="screen">
+      <link rel="styles.css" type="text/css">
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <ul id="brands">
+        <li class="brand">Nike</li>
+        <li class="brand favorite">Adidas</li>
+        <li class="brand">Reebok</li>
+      </ul>
+    </div>
+    <footer> The footer section </footer>
+
+    <script type="text/javascript">
+
+    $('body');  //select body
+    $("footer").text("I am a semantic tag :)"); // change footer
+    $('.favorite' ) // select favorite brand
+    $(.content).css("background-color","lightblue") // set background color
+    $('.brand').length; // count items in brands list
+    $('brand').remove(); // remove all brands
+    var brand = $('<li class="brand favorite">').text("zara");
+    $('#brands')      // add favorite brand to the list 
+
+      // CODE YOUR JAVASCRIPT HERE
+    </script>
+  </body>
+</html>
