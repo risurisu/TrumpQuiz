@@ -47,6 +47,7 @@ BASE STYLE
 /* Write your CSS here! */
 
 body {
+<<<<<<< HEAD
     background-image: url("../images/background.jpg");
     background-repeat: repeat-x;
     font-family: helvetica;
@@ -54,25 +55,34 @@ body {
     line-height: 1.7em;
     background-color: lightgray;
     float: left;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
   /*  What syles apply to all of the body contain */
   /* background? font-faimly?  etc.*/
 }
 
 a {
+<<<<<<< HEAD
   color: red;
   text-decoration: none;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* How are 'a' tags styled? */
 }
 
 h1 a {
+<<<<<<< HEAD
   height: 100%;
   width: 100%;
   display: inline-block;
   margin: 0 auto;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
   /* What should 'a' tags WITHIN 'h1' tags look like? */
 }
 
 h2 {
+<<<<<<< HEAD
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -83,6 +93,11 @@ h2 {
 	h2 a {
     color: black;
     text-decoration: none;
+=======
+  /* What should 'h2' tags look like? */
+}
+	h2 a {
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	   /* What should 'a' tags WITHIN 'h2' tags look like? */
 	}
 
@@ -97,23 +112,30 @@ LAYOUT
 
 /* Center the container */
 #container {
+<<<<<<< HEAD
   background: white;
   margin: 0 auto;
   width: 60%;
   padding: 10px;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
 
 #header {
+<<<<<<< HEAD
   padding: 5%;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-image:url("../images/logo.png")
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
 
 #main {
+<<<<<<< HEAD
   text-align: center;
   flex-direction: column;
   background: white;
@@ -121,13 +143,18 @@ LAYOUT
   flex-direction: column;
   margin-right: 10px;
   margin: 0;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
 
 	.post {
+<<<<<<< HEAD
     margin: auto;
     padding-bottom: 50%;
 
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 		/* ??  */
 	}
 
@@ -136,11 +163,14 @@ LAYOUT
 	}
 
 #sidebar {
+<<<<<<< HEAD
   float: right;
   padding: 20px;
   height: 60%;
   text-align: left;
   background-color: white;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
 
@@ -149,26 +179,38 @@ LAYOUT
 	}
 
 #sidebar ul {
+<<<<<<< HEAD
   padding: 0;
   text-align: left;
   list-style: none;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
 
 #sidebar li {
+<<<<<<< HEAD
   text-align: left;
   list-style: none;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
 
 #sidebar a {
+<<<<<<< HEAD
   text-align: left;
   color: black;
   font-weight: bold;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
 
 footer {
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> 31a17036f4a87789001ad5cc5e825f6b601f84cb
 	/* ??  */
 }
