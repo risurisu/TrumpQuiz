@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prime Numbers Solution</title>
+  </head>
+  <body>
+
+    <h1>Primes Solution!</h1>
+    <script type="text/javascript">
+
+      // isPrime
+      var isPrime = function(num) {
+        for( var i = 2; i < num; i ++){
+          if (num % i === 0){
+            return false;
+          }
+        }
+        return true;
+      };
+
+
+      // printPrimes
+
+      var printPrimes = function(num){
+        for (var i =2; i <= num; i++) {
+          if (isPrime(i)){
+            console.log(i + "  <---PRIME!");
+          } else {
+            console.log(i);
+          };
+        };
+      };
+
+      // primeAtPosition
+
+      var primeAtPosition = function(positionNumber) {
+        var positionCounter = 0;
+        var i = 2;
+        while( positionCounter < positionNumber) {
+          if (isPrime(i)){
+            positionCounter++;
+          }
+          if(positionCounter === positionNumber){
+            console.log(i);
+            // return i;
+          }
+          i++;
+        }
+      }
+
+    </script>
+
+  </body>
+</html>
