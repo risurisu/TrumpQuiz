@@ -26,4 +26,4 @@
   - 150 of green
   - 11 of blue
 
-`$('#body').css("background-color") = 'rgb(' + 200 + ',' + 150 + ',' + 11 + ')';`
+`$('body').css("background-color") = 'rgb(' + 200 + ',' + 150 + ',' + 11 + ')';`

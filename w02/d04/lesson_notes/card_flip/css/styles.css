@@ -1,0 +1,12 @@
+.card {
+  width: 100px;
+  height: 140px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Domino_pizza_logo.svg/2000px-Domino_pizza_logo.svg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.facedown {
+  background-color: black;
+  background-image: url('http://ic.pics.livejournal.com/dailyafirmation/691132/529371/529371_original.jpg');
+}
