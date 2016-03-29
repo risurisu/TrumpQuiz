@@ -1,0 +1,34 @@
+html {
+  background-image: url("http://maccabeesociety.com/wp-content/uploads/2016/03/mexico-border-fence.jpg");
+  background-size: cover;
+  background-position: static;
+
+}
+
+body {
+  font-family: bootstrap
+}
+
+@font-face {
+  font-family: "patriot";
+  src: url("LMS Star Spangled.ttf");
+}
+
+.title {
+  font-family: "patriot";
+  color: red;
+  text-align: center;
+}
+
+.choice1{
+  content:url("http://www.wnd.com/files/2015/07/trump300x300.jpg");
+  position: left;
+}
+
+.choice2 {
+  content: url("http://static.giantbomb.com/uploads/scale_medium/0/5128/362102-sa_dr_eggman_02.jpg");
+  position: right;
+  height: 300px;
+  width: 300px;
+
+}
